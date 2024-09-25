@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="contenedor"></div>
+
+    <button id="boton">agregar texto</button>
+
+    <script>
+      let divId = document.getElementById("contenedor");
+      let boton = document.getElementById("boton");
+
+      boton.addEventListener("click", texto);
+
+      function texto() {
+        console.log("entro")
+        divId.innerHTML = "esto lo agrego el primer div";
+        divId.style.margin = "50px";
+        divId.style.background = "gray";
+      }
+    </script>
+  </body>
+</html>
