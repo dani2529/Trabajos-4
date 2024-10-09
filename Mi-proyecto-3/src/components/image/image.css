@@ -1,0 +1,39 @@
+.image-container {
+  position: relative;
+  width: 100%;
+  max-width: 400px; /* Ajusta según tu necesidad */
+  border: 2px solid rgb(3, 11, 4);
+  border-radius: 1px;
+  margin-left: 10px;
+  
+  margin: 20px;
+  background-color: rgb(0, 31, 16);
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: grid;
+  box-shadow: 0px 0px 20px #1ce64f;
+  
+}
+
+.centered-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(0, 31, 16); /* Fondo semi-transparente */
+  padding: 30px;
+  border-radius: 30px;
+  text-align: center;
+  border: 2px solid rgb(3, 11, 4);
+  position: relative;
+  width: 50%;
+}
+
+
+
+
+
+

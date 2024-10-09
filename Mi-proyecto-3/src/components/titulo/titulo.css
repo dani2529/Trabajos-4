@@ -1,0 +1,14 @@
+.center {
+  color: #1ce64f;
+  position: absolute;
+  top: 226px; /* Ajusta la distancia desde la parte superior */
+  left: 55px;
+  font-family: "Arial", sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 10px;
+  height: 2px;
+}
+
+
