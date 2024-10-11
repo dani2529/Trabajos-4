@@ -1,0 +1,19 @@
+.image-container {
+    position: relative;
+    width: 100%;
+    max-width: 400px; /* Ajusta según tu necesidad */
+    border: 2px solid rgb(141, 141, 146);
+    border-radius: 1px;
+    margin-left: 10px;
+    
+    margin: 20px;
+    background-color: rgb(11, 10, 10);
+  }
+
+  .image-container img {
+    width: 100%;
+    height: auto;
+    display: grid;
+    box-shadow: 0px 0px 20px #b50808;
+    
+  }
