@@ -4,11 +4,10 @@ import Nombre from "./nombre/nombre";
 
 const CharacterCard = (props) => {
   return (
-    <div className="image-container">
-      <div className="imag">
+    <div>
+      <div className="cuadro">
         <Imagen imagen={props.imagen} />
-      </div>
-      <div className="center">
+
         <Nombre nombre={props.nombre} />
       </div>
     </div>

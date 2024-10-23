@@ -20,8 +20,8 @@ const RickAndMortyCharacterCard = (props) => {
   }, []);
 
   return (
-    <div>
-      <CharacterCard imagen={imagen} nombre={nombre} />
+    <div className="card">
+      <CharacterCard imagen={imagen} nombre={nombre}/>
     </div>
   );
 };
